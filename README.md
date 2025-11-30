@@ -210,4 +210,4 @@ MIT
 
 ## 👤 Autor
 
-Tu nombre aquí
+Santiago Tirado
