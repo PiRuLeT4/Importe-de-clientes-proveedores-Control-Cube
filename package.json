@@ -1,0 +1,27 @@
+{
+  "name": "facturadirecta-csv-exporter",
+  "version": "1.0.0",
+  "description": "Export client data from MySQL to FacturaDirecta CSV format",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "suppliers": "node src/indexSuppliers.js",
+    "suppliers:dev": "node --watch src/indexSuppliers.js",
+    "test:countries": "node src/testCountries.js"
+  },
+  "keywords": [
+    "facturadirecta",
+    "csv",
+    "mysql",
+    "export"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.6.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
